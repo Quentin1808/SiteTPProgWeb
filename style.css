@@ -1,0 +1,22 @@
+body{
+  background-color: #C63915;
+}
+
+body #banniere{
+  width: 100%;
+  height:75px;
+  float :right;
+
+}
+
+body #banniere ul{
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+body #banniere input{
+  float: right;
+}

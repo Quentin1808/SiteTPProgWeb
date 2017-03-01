@@ -1,22 +1,166 @@
+*{
+  box-sizing: border-box;
+}
+
+
 body{
   background-color: #C63915;
+  float: left;
+  width: 100%;
+  margin: 0;
 }
 
 body #banniere{
   width: 100%;
-  height:75px;
-  float :right;
-
-}
-
-body #banniere ul{
+  height:150px;
   float: left;
+}
+
+body #banniere #image{
+  float:left;
+  background-image: url(bl2.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 120px;
+}
+
+body #banniere #header{
+  float:right;
+  display: inline;
+}
+
+body #banniere #header ul{
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+body #banniere #header li{
+  display: inline;
+}
+
+body #fond{
+  height: auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+  float: left;
+}
+
+body #fond img{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+}
+
+body #contenu1{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+body #contenu1 h1{
+  padding-left: 25px;
+}
+
+body #contenu1 p{
 
 }
 
-body #banniere input{
+body #contenu2 {
+  height: auto;
+  width: 100%;
+  margin-top: 10px;
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+body #contenu2 #Im{
+  display: inline-block;
+  height: auto;
+  width: 23%;
+  background-color: black;
+  margin-top: 10px;
+  text-align: center;
+}
+
+body #contenu2 #Im img{
+  height: 250px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body #contenu2 #Im h2{
+  text-align: center;
+  color: red;
+}
+
+body #contenu2 #Im p{
+  text-align: center;
+}
+
+body #geolocalisation{
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-top: 35px;
+  border-right: 2px solid;
+}
+
+body #geolocalisation h2{
+  padding-left: 8%;
+}
+
+body #geolocalisation iframe{
+  padding-left: 8%
+}
+
+body #formulaire{
+  display: inline-block;
   float: right;
+  width: 50%;
+  margin-top: 35px;
+  padding-left: 4%
+}
+
+body #formulaire input{
+  width: 43%;
+  margin-right: 2.5%;
+  margin-top: 4%;
+}
+
+body #formulaire #mail{
+  width: 98%;
+  margin-right: 0px;
+}
+
+body #formulaire #fichier{
+  width: 98%;
+  margin-right: 0px;
+}
+
+body #formulaire textarea{
+  margin-top: 4%;
+  width: 98%;
+}
+
+body #formulaire #send{
+  width: 25%;
+}
+
+body #footer{
+  display: block;
+  width: 100%;
+  height: 45px;
+  float: left;
+  text-align: right;
+  margin-top: 4%;
+}
+
+body #footer p{
+  padding-right: 4%;
 }
